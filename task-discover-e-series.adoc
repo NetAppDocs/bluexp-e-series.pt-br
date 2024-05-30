@@ -1,0 +1,47 @@
+---
+sidebar: sidebar 
+permalink: task-discover-e-series.html 
+keywords: e-series, cluster, discover, manage, discovering, discover e-series 
+summary: O BlueXP  pode descobrir os sistemas e-Series em seu ambiente local. A adição de sistemas e-Series ao BlueXP  permite que você tenha uma visão completa dos dados em sua multicloud híbrida. 
+---
+= Descubra os sistemas e-Series
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+O BlueXP  pode descobrir os sistemas e-Series em seu ambiente local. A adição de sistemas e-Series ao BlueXP  permite que você tenha uma visão completa dos dados em sua multicloud híbrida.
+
+.Antes de começar
+Você precisa do seguinte:
+
+* Um conetor instalado em um provedor de nuvem ou no local, com conetividade de rede ao sistema e-Series.
++
+https://docs.netapp.com/us-en/bluexp-setup-admin/concept-connectors.html["Saiba mais sobre conetores e como criar um"^]
+
+* O nome de domínio ou endereço IP do controlador do sistema de armazenamento.
+* Credenciais de administrador para o sistema.
+
+
+.Passos
+. No menu de navegação BlueXP , selecione *armazenamento > tela*.
+. No Canvas, selecione *Adicionar ambiente de trabalho* e selecione *no local*.
+. Ao lado de *e-Series*, selecione *Discover*.
+. Se você for solicitado, crie um conetor.
++
+Consulte o link acima para obter mais detalhes.
+
+. Na página _Detalhes do cluster do e-Series_, insira o nome de domínio ou endereço IP do controlador do sistema de armazenamento, as credenciais de administrador do sistema e selecione *Adicionar*.
++
+image:screenshot-cluster-details.png["Uma captura de tela que mostra a página Detalhes do cluster do e-Series onde você é solicitado a inserir o nome de domínio ou endereço IP e o nome de usuário e senha do administrador."]
+
+
+
+.Resultado
+BlueXP  descobre o sistema e-Series e adiciona-o como um ambiente de trabalho no Canvas.
+
+image:screenshot-canvas.png["Uma captura de tela que mostra um ambiente de trabalho e-Series no BlueXP  Canvas."]
